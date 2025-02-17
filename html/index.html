@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amambi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('/img/wallpaper.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        .sla {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            width: 90%;
+            margin: 20px auto;
+        }
+        .sla img {
+            max-width: 70%;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .sla .texto {
+            font-size: 16px;
+            color: #212121;
+            max-width: 600px;
+        }
+        @media (max-width: 768px) {
+            .sla {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .sla img {
+                margin-right: 0;
+                max-width: 100%;
+            }
+            .sla .texto {
+                font-size: 14px;
+                max-width: 90%;
+            }
+        }
+        @media (max-width: 480px) {
+            .sla .texto {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper" style="background-color:#606C38; height: 100px;">
+            <div class="container">
+                <a href="#" class="brand-logo">
+                    <img src="/img/logo.png" width="100" height="100" alt="Logo" style="margin-top: 1px;">
+                </a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Sobre</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="nosso.html">Nosso coco</a></li>
+                    <li><a href="agua.html">Agua de coco</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<ul class="sidenav" id="mobile-demo" style="background-color:#606C38;">
+    <li><a href="index.html">Sobre</a></li>
+    <li><a href="produtos.html">Produtos</a></li>
+    <li><a href="nosso.html">Nosso coco</a></li>
+    <li><a href="agua.html">Agua de coco</a></li>
+    <li><a href="login.html">Login</a></li>
+</ul>
+    <br>
+
+    <img src="/img/banner.png" class="responsive-img" alt="Banner" width="100%">
+
+    <div class="sla">
+        <img src="/img/praia.jpg" alt="Praia">
+        <div class="texto">
+            <h4>Sobre a AMAMBI</h4>
+            <p>A AMAMBI é uma empresa inovadora que oferece coco 100% natural, apresentando o coco-verde em sua própria casca e também em garrafas. Conferindo ao produto uma sofisticação única e distinta de qualquer outra água de coco no mercado, graças ao nosso processo de descasque e preparação para consumo prático.</p>
+            <p>Tudo começou com a ideia de servir os consumidores de água de coco de maneira prática e inovadora, através de um produto tradicional que pode ser consumido em qualquer lugar. A maioria das águas de coco disponíveis no mercado contêm algum tipo de conservante. No entanto, a AMAMBI utiliza um sistema de abertura prático e rápido, que garante a preservação da integridade natural da água e da polpa do fruto, sem a adição de qualquer produto químico. O coco permanece intacto, preservando tanto a doçura da água quanto a suavidade da polpa.</p>
+        <p>A AMAMBI está evoluindo e expandindo para atender às necessidades de nossos clientes, oferecendo a mesma água de coco de qualidade e 100% natural em garrafas práticas e portáteis. Continuamos sendo uma empresa eco-friendly e natural, consciente da necessidade de preservar o planeta para as futuras gerações.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div class="row center-align">
+        <h5 class="flow-text" style="font-size: 30px;">PRODUTOS EM DESTAQUE!</h5>
+      </div>
+    
+      <div class="row" >
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img src="/img/caixa.png" class="responsive-img" alt="Orquídeas Phalaenopsis Roxo">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">1 caixa de Agua de Coco</span>
+                    <p>R$12,00</p>
+                </div>
+                <div class="card-action">
+                    <a href="#" class="activator">Sobre</a>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Sobre<i class="material-icons right">close</i></span>
+                    <p>O coco, em suas diversas formas e composições, é considerado um dos frutos mais saudáveis do mundo. Rico em fibras, vitaminas dos complexos B e C, minerais e oligoelementos, ele é um componente essencial de dietas saudáveis.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img src="/img/agua.jpg" class="responsive-img" alt="Arranjo de Rosas Vermelhas">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">1 Unidade de Agua de Coco</span>
+                    <p>R$7,00</p>
+                </div>
+                <div class="card-action">
+                    <a href="#" class="activator">Sobre</a>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Sobre<i class="material-icons right">close</i></span>
+                    <p>O coco, em suas diversas formas e composições, é considerado um dos frutos mais saudáveis do mundo. Rico em fibras, vitaminas dos complexos B e C, minerais e oligoelementos, ele é um componente essencial de dietas saudáveis.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img src="/img/duas.jpg" class="responsive-img" alt="Flores do Campo, Gérberas e Rosas">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">2 Unidades de Agua de coco</span>
+                    <p>R$13,00</p>
+                </div>
+                <div class="card-action">
+                    <a href="#" class="activator">Sobre</a>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Sobre<i class="material-icons right">close</i></span>
+                    <p>O coco, em suas diversas formas e composições, é considerado um dos frutos mais saudáveis do mundo. Rico em fibras, vitaminas dos complexos B e C, minerais e oligoelementos, ele é um componente essencial de dietas saudáveis.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img src="/img/mulher.jpg" class="responsive-img" alt="Rosas brancas, Rosé e Lilás">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">1 Agua de Coco e 1 Coco</span>
+                    <p>R$15,00</p>
+                </div>
+                <div class="card-action">
+                    <a href="#" class="activator">Sobre</a>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Sobre<i class="material-icons right">close</i></span>
+                    <p>O coco, em suas diversas formas e composições, é considerado um dos frutos mais saudáveis do mundo. Rico em fibras, vitaminas dos complexos B e C, minerais e oligoelementos, ele é um componente essencial de dietas saudáveis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div style="background-color:#606C38; text-align: center;">
+        <br>
+        <div class="row center-align">
+            <div class="col s12">
+              <a href="https://www.youtube.com/"><img src="/img/youtube777.png" width="35" height="35" class="responsive-img img-thumbnail"></a>
+              <a href="https://www.facebook.com/"><img src="/img/facebook777.png" width="35" height="35" class="responsive-img img-thumbnail"></a>
+              <a href="https://www.instagram.com/"><img src="/img/instagram.png" width="30" height="30" class="responsive-img img-thumbnail"></a>
+            </div>
+          </div>
+        <p>Rua Magarinos Torres, 467 – Vila Maria – 02119-000 - São Paulo – SP</p>
+        <p>(11) 2631-7007</p>
+        <p>contato@amambicoco.com.br</p>
+        <p>Atendimento: Dom - Sex, 7h - 19h</p>
+        <br>
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script type="text/javascript">
+    M.AutoInit();
+</script>
+</body>
+</html>
